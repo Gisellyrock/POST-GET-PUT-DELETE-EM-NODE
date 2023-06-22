@@ -13,7 +13,6 @@ app.post('/products', (request, response) => {
   const product = {
     name,
     price,
-    id: randomUUID(),
   };
 
   products.push(product);

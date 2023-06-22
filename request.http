@@ -2,17 +2,14 @@ POST http://localhost:4002/products
 content-type: application/json 
 
 {
-  "name": "Caderno pequeno",
-  "price": 15
+  "name": "caneta azul",
+  "price": 2.00
 }
 
 ###
-
 GET http://localhost:4002/products 
 
-###
 
-GET http://localhost:4002/products 
 ###
 PUT http://localhost:4002/products/52213a71-7834-4002-b949-1ce0169370e6
 content-type: application/json 
@@ -21,3 +18,8 @@ content-type: application/json
   "name": "Caderno grande",
   "price": 12.00
 }
+
+
+###
+DELETE http://localhost:4002/products/ 
+
